@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<title>Work Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Sai Charan Multiverse Portfolio</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#sprint1" class="w3-bar-item w3-button">Sprint 1</a>
+      <a href="#sprint2" class="w3-bar-item w3-button">Sprint 2</a>
+      <a href="#sprint3" class="w3-bar-item w3-button">Sprint 3</a>
+      <a href="#sprint4" class="w3-bar-item w3-button">Sprint 4</a>
+      <a href="#sprint5" class="w3-bar-item w3-button">Sprint 5</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px;margin-top: 50px;" id="home">
+  <img class="w3-image" src="images1/1.png" alt="Scraping" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Jobverz</h1>
+  </div>
+</header>
+
+
+
+<!-- Page content -->
+<!-- <div class="w3-content"> -->
+    <div id="about">
+<div style="margin-left: 15%;margin-right: 15%;margin-top: 30px;">
+    <br>
+    <br>
+    <h1 class="w3-center">About Web scraping</h1><br>
+    <p class="w3-large">Initial thoughts on web scraping as a work would be trivial, easy, and unimportant. However, I have realised through my internship at Multiverse that it is one of the most important steps in the Data science pipeline which most of us turn a blind eye to. Web scraping provides a solution for those who want to get access to structured web data in an automated fashion. It is extracting information and data from a website, transforming the information on a webpage into structured data for further analysis. </p>
+    <p class="w3-large">Structured data is of paramount importance when it comes to data analytics but more than 70% of  data present online is unstructured and hence is of little use. However, Web scraping allows us to “legally” collect information from thousands of websites and structure the data into desirable format which eases further steps of the Data science pipeline.</p>
+    <img src="images1/Steps_to_a_Data_Science_Project_Lifecyle.jpg" class="w3-round w3-image " alt="Table Setting">
+</div>
+</div>
+<br>
+<div class="w3-light-grey">
+<div style="margin-left: 15%;margin-right: 15%;margin-top: 30px; " id="about">
+    <br>
+    <br>
+    <h1 class="w3-center">About Scrapy tool</h1><br>
+    <p class="w3-large">There exists a number of ways and libraries to perform the task of web scraping. I have chosen the scrapy tool to do so as it is very fast and supports scalability on an enterprise level. Working of the scrapy tool can be summarized as follows.</p>
+    <img src="images1/scrapy_architecture.png" class="w3-round w3-image " alt="Table Setting">
+</div>
+<br>
+</div>
+
+  <!-- About Section -->
+  
+    <div class="w3-row w3-padding-64" id="sprint1">
+        <h1 class="w3-center">Sprint 1</h1><br>
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+        <img src="images1/3.jpg" class="w3-round w3-image image_left" alt="Table Setting">
+        </div>
+
+        <div class="w3-col m6 w3-padding-large">
+        <p class="w3-large">Sprint 1 began with understanding the <span class="w3-tag w3-light-grey">Scrapy</span> architecture and usage of the tool. From there, I have developed a spider to scrape <span class="w3-tag w3-light-grey">Monster Singapore</span> website to get job postings from Data Science domain, by putting the unstructured data in the site inot the necessary structured format.</p>
+        <p class="w3-large">This extracted data has beem taken in a JSON format and has been saved into a CSV format for further analysis and taxanomy building.</p>
+        </div>
+    </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-light-grey">
+    <div class="w3-row w3-padding-64" id="sprint2">
+      <h1 class="w3-center">Sprint 2</h1><br>
+      <div class="w3-col l6 w3-padding-large">
+          <p class="w3-large">The work done on sprint 2 was to analyse, study and determine how the SkillsFuture website was built and how the Technical and Generic skills are mapped to the professions and their work portfolios in different sectors. The site consisted of various professions from all platforms ranging from basic non-technical jobs like driver and caretakers to highly technical and skill based professions like Data Scientist etc.</p>
+          <p class="w3-large w3-text-grey ">Extracted the required skill competency level data for each of the job role given in different sectors. Structures the data into a CSV file for skill comparision.</p>   
+      </div>
+      
+      <div class="w3-col l6 w3-padding-large">
+        <img src="images1/ssg.jpg" class="w3-round w3-image image_right" alt="Menu">
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- About Section -->
+  
+    <div class="w3-row w3-padding-64" id="sprint3"">
+        <h1 class="w3-center">Sprint 3</h1><br>
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+        <img src="images1/msg.jpg" class="w3-round w3-image image_left" alt="Table Setting">
+        </div>
+
+        <div class="w3-col m6 w3-padding-large">
+        <p class="w3-large">As a part of sprint 3, we were allocated top 3 of the Fortune 500 sites alongside Monster and Indeed Singapore sites to be scraped. Since I have worked on Monster Singapore site in sprint 1, I was assigned the task to extract further job postings from the site, without a domain filter like in the first sprint.</p>
+        <p class="w3-large w3-text-grey ">I have extracted aroun 5K postings from the site from all domains which were arranged in the CSV file with fields and their values separated.</p>
+        </div>
+    </div>
+
+  <hr>
+
+  <!-- Menu Section -->
+  <div class="w3-light-grey">
+  <div class="w3-row w3-padding-64" id="sprint4">
+    <h1 class="w3-center">Sprint 4</h1><br>
+    <div class="w3-col l6 w3-padding-large">
+        <p class="w3-large">In the sprint 4, we have worked on extracting jobs and skills from Fortune 500 companies, choosing the first 13 for this sprint. We, the Job  Aggregations team have divided the websites among ourselves. We have analysed the site, checked for feasibility with scraping tool and built spiders to get the necessary job postings.</p>
+        <p class="w3-large w3-text-grey ">I have extracted the jobs from <span class="w3-tag w3-light-grey">McKesson</span> as well as <span class="w3-tag w3-light-grey">CVS Health</span> for the weeks sprint, storing them in a CSV file and submitting the details as necessary.</p>   
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="images1/mck.jpg" class="w3-round w3-image image_right" alt="Menu">
+    </div>
+  </div>
+</div>
+  <hr>
+
+  <!-- About Section -->
+  
+    <div class="w3-row w3-padding-64" id="sprint5" >
+        <h1 class="w3-center">Sprint 5</h1><br>
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+        <img src="images1/F500.jpg" class="w3-round w3-image image_left">
+        </div>
+
+        <div class="w3-col m6 w3-padding-large">
+        <p class="w3-large">Sprint 5 planning was slightly different from the other sprints, with a target to speed up work and increase the jobs aggregated. For this, we have researched the FOrtune 500 sites upto 200 to get the sites with maximum job postings. From the sites researched, we have arranged based on job postings available. From these sites, I have been assigned Cisco, Lockheed Martin and Marriott International sites, from which all jobs were scraped and arranged in CSV files in necessary format</p>
+        </div>
+    </div>
+  
+<!-- End page content -->
+<!-- </div> -->
+
+
+</body>
+</html>
